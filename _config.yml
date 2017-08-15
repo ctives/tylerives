@@ -25,9 +25,13 @@ instagram_username: ctives
 linkedin_username:
 
 # Build settings
+sass:
+  sass_dir: _sass
+
 markdown: kramdown
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+  - assets/scss/
