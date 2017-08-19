@@ -1,13 +1,13 @@
-title: tylerives.com
+title: Tyler Ives
 email: ct.ives@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The personal webpage of Tyler Ives.  Here you will find my resume and some random stuff about me that you may or
   may not find interesting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tylerives.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: ctives
-instagram_username: ctives
-linkedin_username:
+github: ctives
+instagram: ctives
+linkedin: tylerives
 
 # Build settings
 sass:

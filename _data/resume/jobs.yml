@@ -1,0 +1,141 @@
+- company: loanhero
+  title: Senior Software Engineer
+  start_date: March 7, 2016
+  end_date:
+  skills:
+    - Ruby
+    - Ruby on Rails
+    - AngularJS
+    - HTML5
+    - CSS3
+    - JIRA
+    - Amazon Web Services
+    - Postgresql
+    - Agile Development
+    - Git
+    - Gulp
+    - Sass
+  responsibilities:
+    - Key member in writing integrations with 3rd party software providers and financial partners.
+    - Wrote clean, testable, maintainable code using Ruby and Ruby on Rails framework.
+    - Influential member of the SCRUM team and SCRUM master when management was unavailable.
+    - Backup manager to VP of Engineering.
+    - Collaborated with out support teams to resolve technical or customer issues.
+- company: audacity
+  title: Head of Development
+  start_date: November 30, 2015
+  end_date: February 26, 2016
+  skills:
+    - PHP
+    - MySql
+    - Wordpress
+    - JIRA
+    - Git
+    - Craft CMS
+    - HTML5
+    - CSS3
+    - Gulp
+    - LESS
+  responsibilities:
+    - Trained team to work within an agile development environment to improve productivity.
+    - Formalized documentation of developed projects, as well as, implement on future projects.
+    - Full time full-stack developer along with managing other full-stack and front-end developers.
+    - Wrote clean, testable, maintainable and scalable code on a LAMP stack.
+    - Responsible for recruiting and hiring new developer positions.
+    - Collaborated within cross-functional teams and coordinated efforts among members.
+    - Researched emerging technologies and leveraged them where appropriate (R&D).
+- company: zurple
+  title: Senior Programmer Analyst
+  start_date: March 26, 2012
+  end_date: October 30, 2015
+  skills:
+    - PHP
+    - Java
+    - MySql
+    - JIRA
+    - Amazon Web Services
+    - Zend Framework
+    - Play Framework
+    - AngularJS
+    - jQuery
+    - Bootstrap
+    - PHPUnit
+    - Jenkins
+    - Agile Development
+    - SVN
+  responsibilities:
+    - Key member in stabilizing Zurple’s products to handle additional traffic and load.
+    - User Experience lead for a majority of Zurple’s front-end work.
+    - Refactored unstable code to become testable, maintainable and scalable, as well as, wrote integration and unit tests for verification.
+    - Created Java based RESTful resources to replace older PHP code in order to become more scalable and modern.
+    - Utilized AngularJS, PHP, JSON, Java, HTML5 and CSS3 to develop a modern application that could scale and provide Zurple users a very modern experience.
+    - Worked within an agile development team on a two-week iteration cycle.
+    - Wrote code that integrated with third party API’s for retrieving real estate property information.
+- company: workforcelogic
+  title: Senior PHP Developer
+  start_date: June 1, 2011
+  end_date: March 9, 2012
+  skills:
+    - PHP
+    - MySql
+    - jQuery
+    - jQueryUI
+    - JIRA
+    - Agile Development
+    - PHPUnit
+    - PHPDoc
+    - SVN
+  responsibilities:
+    - Designed and implemented the web session management and permissions model for Sony’s outsource management tool.
+    - Designed and implemented user authentication with Sony’s LDAP directory.
+    - Used object oriented design patterns for architecting an in-house designed MVC framework.
+    - Provided leadership in implementing PHPUnit, PHPdoc and SVN for the development team I was assigned.
+    - Used jQuery extensively for requesting RESTful resources and managing JSON objects.
+- company: avalara
+  title: Staff Programmer Analyst
+  start_date: June 1, 2005
+  end_date: May 20, 2011
+  skills:
+    - PL/SQL
+    - Oracle DB
+    - Java
+    - JUnit
+    - Spring
+    - iBatis
+    - Jenkins
+    - SVN
+  responsibilities:
+    - Lead developer for Avalara’s sale tax return processing application.
+    - Developed applications using Java and PL/SQL.
+    - Helped create scalable web applications using Oracle application and database servers.
+    - Acquired a leadership role for providing and maintaining technology solutions for the tax return business product.
+- company: triplei
+  title: Portal Content Engineer
+  start_date: October 1, 2004
+  end_date: May 30, 2005
+  skills:
+    - Oracle Portal
+    - Oracle Internet Directory
+    - PL/SQL
+    - Java
+    - HTML
+    - CSS
+  responsibilities:
+    - Wrote PL/SQL scripts to synchronize LDAP directories with Oracle Portal OIDs.
+    - Designed and developed a website following the W3C standard of accessibility.
+    - Administered user accounts for Oracle Portal and Oracle Internet Directory.
+- company: sdsu
+  title: Programmer Analyst
+  start_date: January 2, 2001
+  end_date: October 30, 2004
+  skills:
+    - Oracle DB
+    - PL/SQL
+    - HTML
+    - CSS
+    - Perl
+  responsibilities:
+    - Webmaster and content administrator of the university homepage.
+    - Wrote conversion code for assigning all pervious and current students an alternative student identification number to replace the usage of social security numbers.
+    - Developed online application for prospective student to check their status of the application for acceptance.
+    - Worked with Student Services department in order to develop university wide applications.

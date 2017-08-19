@@ -3,7 +3,21 @@
 ---
 
 @import 'materialize';
+@import 'font-awesome';
 
-body {
-  background-color: #00bcd4;
+.social{
+
+  text-align: center;
+
+  .icon {
+    padding-right: 5px;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  li + li {
+    padding-top: 5px;
+  }
 }

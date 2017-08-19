@@ -1,0 +1,66 @@
+loanhero:
+  name: Loanhero Inc.
+  address:
+    street: 750 B Street, Suite 1410
+    city: San Diego
+    state: California
+    zip: 92101
+  website: www.loanhero.com/
+  phone: 8889124376
+audacity:
+  name: Audacity Health Inc.
+  address:
+    street: 2550 Gateway road.
+    city: Carlsbad
+    state: California
+    zip: 92009
+  website: www.audacityhealth.com/
+  phone: 8583850664
+zurple:
+  name: Zurple Inc.
+  address:
+    street: 10045 Mesa Rim Rd.
+    city: San Diego
+    state: California
+    zip: 92121
+  website: zurple.com
+  phone: 80095202312
+workforcelogic:
+  name: WorkforceLogic
+  address:
+    street: 10075 Barnes Canyon Rd
+    city: San Diego
+    state: California
+    zip: 92121
+  website: www.zerochaos.com
+  phone: 8779376242
+avalara:
+  name: Avalara Inc.
+  address:
+    street: 10620 Treena St.
+    city: San Diego
+    state: Calfornia
+    zip: 92131
+  website: www.avalara.com
+  phone: 8777804848
+triplei:
+  name: Triple-I
+  address:
+    street: 4200 W. 115th Suite 300
+    city: Leawood
+    state: Kansas
+    zip: 66211
+  website: www.triplei.com
+  phone: 8885606692
+sdsu:
+  name: San Diego State University
+  address:
+    street: 5250 Campanile Dr.
+    city: San Diego
+    state: California
+    zip: 92182
+  website: www.sdsu.edu
+  phone: 6195945200
+
+
+

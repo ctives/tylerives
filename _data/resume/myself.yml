@@ -1,0 +1,17 @@
+tyler:
+  first_name: Tyler
+  last_name: Ives
+  email: ct.ives@gmail.com
+  phone: 8586882997
+  address:
+    street: 4078 Avati Dr.
+    city: San Diego
+    state: California
+    zip: 92117
+  social:
+    instagram: ctives
+    linkedin: tylerives
+    pinterest: ctives
+  title: Seasoned Interweb Developer
+  profile: TBD
+
