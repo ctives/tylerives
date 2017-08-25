@@ -7,6 +7,7 @@ loanhero:
     zip: 92101
   website: www.loanhero.com/
   phone: 8889124376
+  logo: assets/images/loanhero-logo.png
 audacity:
   name: Audacity Health Inc.
   address:
@@ -16,6 +17,7 @@ audacity:
     zip: 92009
   website: www.audacityhealth.com/
   phone: 8583850664
+  logo: assets/images/audacity-logo.svg
 zurple:
   name: Zurple Inc.
   address:
@@ -25,6 +27,7 @@ zurple:
     zip: 92121
   website: zurple.com
   phone: 80095202312
+  logo: assets/images/zurple-logo.png
 workforcelogic:
   name: WorkforceLogic
   address:
@@ -34,6 +37,7 @@ workforcelogic:
     zip: 92121
   website: www.zerochaos.com
   phone: 8779376242
+  logo: assets/images/workforcelogic-logo.jpg
 avalara:
   name: Avalara Inc.
   address:
@@ -43,6 +47,7 @@ avalara:
     zip: 92131
   website: www.avalara.com
   phone: 8777804848
+  logo: assets/images/avalara-logo.svg
 triplei:
   name: Triple-I
   address:
@@ -52,6 +57,7 @@ triplei:
     zip: 66211
   website: www.triplei.com
   phone: 8885606692
+  logo: assets/images/triplei-logo.png
 sdsu:
   name: San Diego State University
   address:
@@ -61,6 +67,7 @@ sdsu:
     zip: 92182
   website: www.sdsu.edu
   phone: 6195945200
+  logo: assets/images/sdsu-logo.png
 
 
 

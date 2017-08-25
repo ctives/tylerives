@@ -5,19 +5,140 @@
 @import 'materialize';
 @import 'font-awesome';
 
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 1.5px;
+  color: $grey-color-dark
+}
+
+.contact-spacer {
+  width: 33%;
+  margin-top: 50px;
+  height: 1.5px;
+  color: #000;
+  background-color: #000;
+
+  @media (max-width: $medium-screen-up) {
+    display: none;
+  }
+}
+
+.contact-options {
+  a {
+    color: #000;
+  }
+
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 36px;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+
+
+  h6 {
+    font-weight: 600;
+  }
+
+}
+
+/* Experience Cards */
+h4.experience {
+  .material-icons {
+    font-size: 36px;
+  }
+
+  span{
+    position: relative;
+    top: -4px;
+  }
+}
+
+li.jobs {
+  letter-spacing: 1.2px;
+
+  img.responsive-img {
+    max-height: 100px !important;
+  }
+
+  .employer {
+    text-align: center;
+  }
+
+  div.position-title {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  div.skills {
+    padding-top: 18px;
+  }
+
+  ul.responsibilities {
+
+    padding-top: 18px;
+    padding-left: 18px;
+
+    li {
+      padding-bottom: 10px;
+    }
+
+    i.material-icons {
+      margin-left: -18px;
+    }
+  }
+
+}
+
+
+/* Social Icons */
 .social{
 
   text-align: center;
 
-  .icon {
-    padding-right: 5px;
-  }
-
   li {
     display: inline-block;
+    padding-right: 10px;
   }
 
   li + li {
     padding-top: 5px;
   }
+
+  i.fa {
+    color: $grey-color-dark;
+  }
+
+  i.fa-instagram:hover {
+    color: #e4405f;
+  }
+
+  i.fa-github-square:hover {
+    color: #000;
+  }
+
+  i.fa-linkedin-square:hover {
+    color: #0077B5;
+  }
+
 }
+
+/* Footer */
+footer {
+  div.footer-copyright {
+    letter-spacing: 1.2px;
+  }
+}
+
+
+

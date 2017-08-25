@@ -1,0 +1,38 @@
+<h4 class="center-align experience">
+    <i class="material-icons">work</i> <span>Experience</span></h4>
+<ul>
+    {% for job in site.data.resume.jobs %}
+    {% assign company = site.data.resume.companies[job.company] %}
+    <li class="jobs">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-title employer">
+                    <a href="http://{{ company.website}}" target="_blank">
+                        <img src="{{ company.logo }}" alt="{{ company.name }}" class="responsive-img">
+                    </a>
+                </div>
+                <div class="position-title">{{ job.title }} | {{job.start_date }} &hyphen;
+                        {% if job.end_date %}
+                            {{ job.end_date }}
+                        {% else %}
+                            Present
+                        {% endif %}</div>
+
+                <div class="skills">
+                    {% for skill in job.skills %}
+                    <div class="chip">{{ skill }}</div>
+                    {% endfor %}
+                </div>
+
+                {% for responsibility in job.responsibilities %}
+                {% if forloop.first %}<ul class="responsibilities">{% endif %}
+                <li><i class="tiny material-icons">add</i> {{ responsibility }}</li>
+                {% if forloop.last %}</ul>{% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </li>
+
+
+    {% endfor %}
+</ul>

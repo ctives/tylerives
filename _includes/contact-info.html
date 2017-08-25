@@ -1,0 +1,37 @@
+<hr class="contact-spacer">
+
+<ul class="contact-options">
+
+    <h6>CONTACT</h6>
+    <li>
+        <a href="tel:1{{ tyler.phone }}" rel="nofollow" class="phone">{{ tyler.phone }}</a>
+    </li>
+    <li>
+        <a href="mailto:{{ tyler.email }}" rel="nofollow">{{ tyler.email }}</a>
+    </li>
+    <li>
+        www.tylerives.com
+    </li>
+</ul>
+
+
+<ul class="social">
+    {% if site.linkedin %}
+    <li>
+        {% include icon-linkedin.html username=site.linkedin %}
+    </li>
+    {% endif %}
+
+    {% if site.instagram %}
+    <li>
+        {% include icon-instagram.html username=site.instagram %}
+    </li>
+    {% endif %}
+
+    {% if site.github %}
+    <li>
+        {% include icon-github.html username=site.github %}
+    </li>
+    {% endif %}
+
+</ul>

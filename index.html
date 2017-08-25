@@ -3,67 +3,19 @@ layout: root
 ---
 
 {% assign tyler = site.data.resume.myself['tyler'] %}
-{% assign jobs = site.data.resume.jobs %}
 
 
 <div class="row">
     <div class="col s12 m12 l6">
-        <h1 class="center-align">{{ tyler.first_name }} {{ tyler.last_name }}</h1>
-        <h4 class="center-align">{{ tyler.title}}</h4>
-        <ul class="social">
-            {% if site.linkedin %}
-            <li>
-                {% include icon-linkedin.html username=site.linkedin %}
-            </li>
-            {% endif %}
+        <h3 class="center-align">{{ tyler.first_name }} {{ tyler.last_name }}</h3>
+        <h5 class="center-align">{{ tyler.title}}</h5>
 
-            {% if site.instagram %}
-            <li>
-                {% include icon-instagram.html username=site.instagram %}
-            </li>
-            {% endif %}
+        {% include contact-info.html %}
 
-            {% if site.github %}
-            <li>
-                {% include icon-github.html username=site.github %}
-            </li>
-            {% endif %}
-
-        </ul>
     </div>
     <div class="col s12 m12 l6">
         <div class="section">
-            <h4 class="center-align">Positions</h4>
-            <ul>
-            {% for job in site.data.resume.jobs %}
-                {% assign company = site.data.resume.companies['loanhero'] %}
-                <li class="jobs">
-                    <div class="card">
-                        <div class="card-content">
-                        <span class="card-title">{{ company.name }} | {{ job.title }} | {{job.start_date }} &hyphen;
-                        {% if job.end_date %}
-                            {{ job.end_date }}
-                        {% else %}
-                            Present
-                        {% endif %}</span>
-
-                        {% for skill in job.skills %}
-                            <div class="chip">{{ skill }}</div>
-                        {% endfor %}
-
-
-                        {% for responsibility in job.responsibilities %}
-                            {% if forloop.first %}<ul class="responsibilities">{% endif %}
-                                <li><i class="tiny material-icons">add</i> {{ responsibility }}</li>
-                            {% if forloop.last %}</ul>{% endif %}
-                        {% endfor %}
-                        </div>
-                    </div>
-                </li>
-
-
-            {% endfor %}
-            </ul>
+            {% include jobs.html %}
         </div>
     </div>
 
